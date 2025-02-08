@@ -3,6 +3,7 @@ while True:
     print("2. Çıkarma")
     print("3. Çarpma")
     print("4. Bölme")
+    print("5. Kare Al")
 
     secim = input("Bir işlem seçin: ")
 
@@ -22,6 +23,9 @@ while True:
         sayi1 = float(input("Birinci sayıyı girin: "))
         sayi2 = float(input("İkinci sayıyı girin: "))
         print("Sonuç:", sayi1 / sayi2)
+    elif secim == "5":
+        sayi1 = float(input("Sayı girin: "))
+        print("Sonuç", sayi1 * sayi1)
     else:
         print("Lütfen geçerli bir seçim yapın.(1-4)")
 
