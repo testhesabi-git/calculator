@@ -22,8 +22,6 @@ while True:
         sayi1 = float(input("Birinci sayıyı girin: "))
         sayi2 = float(input("İkinci sayıyı girin: "))
         print("Sonuç:", sayi1 / sayi2)
-    else:
-        print("Lütfen geçerli bir seçim yapın.(1-4)")
 
 
 
