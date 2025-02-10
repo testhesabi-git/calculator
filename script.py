@@ -1,3 +1,5 @@
+import math
+
 def sayi_al(mesaj):
     while True:
         try:
@@ -11,6 +13,7 @@ while True:
     print("3. Çarpma")
     print("4. Bölme")
     print("5. Kare Al")
+    print("6. Karekök Al")
 
     secim = input("Bir işlem seçin: ")
 
@@ -33,6 +36,9 @@ while True:
     elif secim == "5":
         sayi1 = sayi_al("Sayıyı girin: ")
         print("Sonuç", sayi1 * sayi1)
+    elif secim == "6":
+        sayi1 = sayi_al("Sayıyı girin: ")
+        print("Sonuç", math.sqrt(sayi1))
     else:
         print("Lütfen geçerli bir seçim yapın.(1-4)")
 
